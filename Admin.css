@@ -1,0 +1,422 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    
+   
+}
+/* body-style*/
+body{
+    height: 70vh;
+    background-image: url("body.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+nav{
+    text-transform: uppercase;
+}
+
+#sidebar{
+    height: 599px;
+
+}
+li a:hover{
+    background-color: rgb(0, 136, 255);
+}
+#element_form{
+    justify-items: center;
+    
+}
+.card .form-control{
+    box-shadow: 0px 3px 6px ;
+    
+ }
+ #element_form{
+    margin-left: 200px;
+    
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 12px;
+    box-shadow: 500px;
+    padding: 20px;
+    width: 700px;
+   
+ }
+ /*cree compte client*/
+ .Client-form-card{
+    display: none;
+ }
+ #form_deposer{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 12px;
+    box-shadow: 500px;
+    padding: 20px;
+ }
+ #container2{
+    display: none;
+ }
+ #submit{
+    width: 100%;
+    background:linear-gradient(45deg, rgb(43, 226, 198), rgb(20, 220, 255));
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+ }
+ #submit:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+    
+ }
+ /* table client */
+ .Btn_add {
+    width: fit-content;
+    margin-bottom:20px;
+    background-color: #2badc4;
+    padding: 5px 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: 0;
+    border-radius: 6px;
+    text-decoration: 0;
+}
+.container_client{
+   padding-top: 100px;
+   width: auto;
+}
+/*tableau*/
+table {
+    border-collapse:collapse;
+    color: #404040;
+}
+th {
+    font-size: 16px;
+    border-bottom: 3px solid #ffcb61;
+    padding: 5px 20px;
+    font-weight: 500;
+}
+td {
+    font-weight: 400;
+    padding: 5px 30px;
+    font-size: 14px;
+    text-align: center;
+
+}
+img {
+    height: 25px;
+   
+}
+tr:nth-child(2n){
+    background-color: #f6f8f8;
+}
+tr:nth-child(2n) td {
+    border-bottom: 1px solid #e0e0e0;
+    border-top:  1px solid #e0e0e0;
+}
+/*Form CSS*/
+.form {
+    background-color: #f6f8f8;
+    padding: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 6px;
+}
+.form form {
+    display: flex;
+    width: 350px;
+    flex-direction: column;
+}
+.back_btn {
+    color: #2badc4;
+    text-decoration: 0;
+    display: flex;
+    align-items: center;
+}
+.back_btn img {
+    height: 16px;
+    margin-right:5px ;
+}
+h2 {
+    margin: 10px 0;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.erreur_message {
+    color: red;
+    font-size: 12px;
+}
+label {
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+input{
+    padding: 5px;
+    border: 1px solid #999;
+    outline: 0;
+    margin-top: 2px;
+}
+input:focus{
+    border: 1px solid #ffcb61;
+}
+input[type="submit"]{
+    margin-top: 25px;
+    background-color: #2badc4;
+    border: 1px solid #2badc4;
+    cursor: pointer;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.table2{
+    width: 100%;
+    text-align: center;
+    border: solid #ffcb61 3px;
+   
+}
+.cc{
+    border: solid #ffcb61 3px;
+}
+#items{
+    border: solid #ffcb61 2px;
+   
+}
+div #bt{
+  display: flex;
+  
+}
+.container{
+    margin-top: 50px;
+}
+/*card operation*/
+.left_form{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+.right_retier{
+    margin-left: 250px;
+    margin-top: 10px;
+}
+
+#operation{
+    display: block;
+    width: 1000px;
+    
+}
+/*End card operation*/
+/*form retier l'argent*/
+.retirer-card{
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 12px;
+    box-shadow: 500px;
+    padding: 20px;
+    width: 800px;
+    margin-left: 370px;
+    margin-top: 100px;
+}
+#retirer{
+    display: none;
+}
+
+
+
+/*end form retier l'argent*/
+
+
+/* Carde.css */
+
+
+.container{
+    min-height: 10vh;
+    padding-left: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    padding-bottom: 60px;
+    
+   
+}
+
+/* form card */
+.container form{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 10px 15px rgba(0,0,0,.1);
+    padding: 20px;
+    width: 600px;
+    padding-top: 115px;
+}
+
+.container form .inputBox{
+    margin-top: 10px;
+}
+/*input*/
+.container form .inputBox span{
+    display: block;
+    color:#999;
+    padding-bottom: 5px;
+}
+
+.container form .inputBox input,
+.container form .inputBox select{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border:1px solid rgba(0,0,0,.3);
+    color:#444;
+}
+
+.container form .flexbox{
+    display: flex;
+    gap:15px;
+}
+
+.container form .flexbox .inputBox{
+    flex:1 1 150px;
+}
+
+.container form .submit-btn{
+    width: 100%;
+    background:linear-gradient(45deg, rgb(43, 226, 198), rgb(20, 220, 255));
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color:#fff;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.container form .submit-btn:hover{
+    letter-spacing: 2px;
+    opacity: .8;
+}
+
+.container .card-container{
+    margin-bottom: -120px;
+    position: relative;
+    height: 230px;
+    width: 400px;
+    margin-left: 90px;
+    
+}
+
+.container .card-container .front{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0; left: 0;
+    background:linear-gradient(45deg, rgb(43, 226, 131), rgb(255, 137, 20));
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    padding:20px;
+    transform:perspective(1000px) rotateY(0deg);
+    transition:transform .4s ease-out;
+}
+
+.container .card-container .front .image{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.container .card-container .front .image img{
+    height: 50px;
+}
+
+.container .card-container .front .card-number-box{
+    padding:30px 0;
+    font-size: 22px;
+    color:#fff;
+}
+
+.container .card-container .front .flexbox{
+    display: flex;
+}
+
+.container .card-container .front .flexbox .box:nth-child(1){
+    margin-right: auto;
+}
+
+.container .card-container .front .flexbox .box{
+    font-size: 15px;
+    color:#fff;
+}
+
+.container .card-container .back{
+    position: absolute;
+    top:0; left: 0;
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(45deg, rgb(205, 226, 43), rgb(20, 200, 255));
+    border-radius: 5px;
+    padding: 20px 0;
+    text-align: right;
+    backface-visibility: hidden;
+    box-shadow: 0 15px 25px rgba(0,0,0,.2);
+    transform:perspective(1000px) rotateY(180deg);
+    transition:transform .4s ease-out;
+}
+
+.container .card-container .back .stripe{
+    background: #000;
+    width: 100%;
+    margin: 10px 0;
+    height: 50px;
+}
+
+.container .card-container .back .box{
+    padding: 0 20px;
+}
+
+.container .card-container .back .box span{
+    color:#fff;
+    font-size: 15px;
+}
+
+.container .card-container .back .box .cvv-box{
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+    color:#333;
+    background: #fff;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.container .card-container .back .box img{
+    margin-top: 30px;
+    height: 30px;
+}
+.container{
+    display: none;
+}
+/*form message*/
+
+/*End form message*/
+/*<!--Message pour  les clients crée -->*/
+.accordion3{
+    width: 970px;
+    margin-left: 280px;
+    display: none;
+}
+
+/*<!--Message pour  les clients crée -->*/
+/* list Admin */
+.container_client{
+    width: 970px;
+    margin-left: 280px; 
+}
+/*End  list Admin */

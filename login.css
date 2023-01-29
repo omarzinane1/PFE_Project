@@ -1,0 +1,60 @@
+
+*{
+    box-sizing: border-box;
+    font-size: confortaa;
+}
+/* body-style*/
+body{
+    background-image: url("AdobeStock_445460122_Preview.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
+}
+/*login*/
+.form{
+  margin-top: 500px;
+}
+ .login-form{
+   width: 330px; margin-left: 555px; margin-top: 270px; 
+   background-color: rgba(255, 255, 255, 0.30);
+   border-radius: 12px;
+   box-shadow: 500px;
+   padding: 20px;
+ }
+ input{
+   display: block;
+   height: 50px;
+   width: 100px;
+   background-color: rgba(255, 255, 255, 0.07);
+   border-radius: 3px;
+   padding: 0 10px;
+   margin-top: 8px;
+   font-size: 14px;
+   font-weight: 300;
+ }
+ label{
+   display: block;
+   font-size: 16px;
+   font-weight: 500;
+ }
+ #photo{
+    border-radius: 50px;
+ }
+ #error{
+   display: none;
+ }
+ #btn{
+  width: 100%;
+  background:linear-gradient(45deg, rgb(43, 226, 198), rgb(20, 192, 255));
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color:#fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: .2s linear;
+ }
+ #btn:hover{
+  letter-spacing: 2px;
+    opacity: .8;
+ }

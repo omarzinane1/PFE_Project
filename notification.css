@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+    font-size: confortaa;
+}
+/* body-style*/
+body{
+    height: 75vh;
+    background-image: url("th\ \(38\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}

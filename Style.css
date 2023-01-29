@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    font-size: confortaa;
+}
+/* body-style*/
+body{
+    height: 75vh;
+    background-image: url("WhatsApp Image 2023-01-20 at 23.01.56.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+ #sample-text-card{
+   margin-left: 60px;
+    margin-top: 300px; 
+    background-color: rgba(255, 255, 255, 0.30);
+   border-radius: 12px;
+   box-shadow: 500px;
+   padding: 20px;
+ }
+ form{
+   background-color: rgba(255, 255, 255, 0.30);
+   border-radius: 12px;
+   box-shadow: 500px;
+   padding: 20px;
+   margin-top: 150px;
+ }
+ .button-wrapper a{
+    width: 200px;
+    color: rgb(12, 82, 144);
+    box-shadow: 0px 3px 6px ;
+ }
+ .btn-md{
+    background-color: rgb(127, 210, 255);
+ }
+ /* form */
+ .card .form-control{
+    box-shadow: 0px 3px 6px ;
+    
+ }
+ /*----*/
+ 
+ 
+ 
+

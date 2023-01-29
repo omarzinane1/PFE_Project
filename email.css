@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+    font-size: confortaa;
+}
+/* Main style body */
+body{
+    height: 100vh;
+    background-color: rgb(216, 216, 230);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+/*<!--wrapper-->*/
+.wrapper{
+    width: 550px;
+    height: auto;
+    padding: 15px;
+    background-color: white;
+    border-radius: 7px;
+}
+/*<!--Email MSG Header-->*/
+.email-msg-header{
+    text-align: center;
+}
+/*compary-name*/
+.compary-name{
+    width: 100%;
+    font-size: 35px;
+    color: gray;
+    text-align: center;
+}
+/*<!--bienvenue-text-->*/
+.bienvenue-text{
+    text-align: center;
+    color: rgb(0, 255, 183);
+    font-size: 19px;
+}
+/*<!--vérifier le compte-->*/
+.verifier-compte-btn{
+    padding: 15px;
+    background-color: rgb(0, 115, 255);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+/*<!--copye right wrapper-->*/
+.copye-right{
+    padding: 15px;
+    color: grey;
+    font-size: 14px;
+    margin: 20px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
